@@ -46,21 +46,24 @@ main {
 
 }
 
-#FormularioCadastro>form>input {
+#FormularioCadastro>form>input#Nome,#Idade,#Email,#SenhaPrimeira,#SenhaVerificar {
     padding-bottom: 10px;
     margin-bottom: 9px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(56, 55, 55, 0.514);
+    color: white;
 
 
 }
 
 #FormularioCadastro>form>label {
-
     color: rgb(1, 255, 131);
 }
 
 #TextFormulario1 {
     padding-right: 99px;
-    
+
 }
 
 #TextFormulario2 {
