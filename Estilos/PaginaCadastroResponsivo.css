@@ -11,3 +11,118 @@ desktop: min:992px max:1200px.
 telas maiores: min:1200px.
 
 */
+
+@media screen and (min-width:768px) and (max-height:992px) {
+    main {
+        width: 90vw;
+        height: 65vh;
+        border-radius: 20px;
+        background-color: rgba(43, 42, 42, 0.699);
+        margin: auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+
+    #DivImagem {
+        float: left;
+        background-image: url(../imagens/Animacao-Tablet-PC-2.svg);
+        width: 500px;
+        background-position: center bottom;
+        margin-right: 20px;
+        margin-top: 20px;
+
+
+    }
+
+    #FormularioCadastro {
+        float: right;
+        width: 60vw;
+        margin-top: -41vh;
+    }
+
+    #TextFormulario1 {
+        padding-right: 0px;
+        padding-left: 30px;
+
+    }
+
+    #TextFormulario2 {
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    #TextFormulario3 {
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    #TextFormulario4 {
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    #TextFormulario5 {
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    #FormularioCadastro>form>input#Nome,
+    #Idade,
+    #Email,
+    #SenhaPrimeira,
+    #SenhaVerificar {
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+        padding-top: 5px;
+        border-radius: 10px;
+        border: none;
+        background-color: rgba(56, 55, 55, 0.514);
+        color: white;
+
+
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        display: inline;
+        text-justify: auto;
+        position: static;
+    }
+
+    @media screen and (min-width:992px) {
+
+        #DivImagem {
+          
+            background-image: url('../imagens/Animacao-Telas-Grandes.svg');
+        }
+        #FormularioCadastro>form>input#Nome,#Idade,#Email,#SenhaPrimeira,#SenhaVerificar {
+            padding-bottom: 10px;
+            padding-top: 10px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            border: none;
+            background-color: rgba(56, 55, 55, 0.514);
+            color: white;
+            width: 40vw;
+        
+        }
+        #BotaoCadastrar {
+          margin-top: 30px;
+
+        }
+        #FormularioCadastro {
+            margin-top: -38vh;
+        }
+
+    }
+}
