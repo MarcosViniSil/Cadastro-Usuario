@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*Estilos Especificos Utilizando o seguinte padrão
+
+A técnica mobile first irá cobrir todas as resoluções consideradas telefones.
+
+tablet: min:768px max:992px.
+
+desktop: min:992px max:1200px.
+
+telas maiores: min:1200px.
+
+*/
