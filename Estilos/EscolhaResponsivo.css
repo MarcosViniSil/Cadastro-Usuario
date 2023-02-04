@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+    #ImagemCaminho {
+        background-image: url('../imagens/Paginaescolha-TelasMaiores.svg');
+    }
+
+    #ImagemCaminho {
+        float: left;
+        width: 45vw;
+        height: 70vh;
+    }
+
+    #LinksPagina {
+
+        float: right;
+        width: 35vw;
+
+
+    }
+
+    #ParagrafoDiv {
+        position: absolute;
+        top: 45%;
+        left: 61%;
+
+    }
+
+    #Login,#Cadastrar{
+        padding: 31px;
+    }
+}
