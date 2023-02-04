@@ -2,6 +2,8 @@ class Usuario {
 
     constructor() {
         this.listaUsuarios = [];
+        this.email="adm@gmail.com";
+        this.senha="12345678";
     }
 
     cadastraUsuario() {
@@ -32,6 +34,7 @@ class Usuario {
             usuario.idadeUsuario = document.getElementById('Idade').value;
             usuario.emailUsuario = document.getElementById('Email').value;
             usuario.senhaUsuario = document.getElementById('SenhaVerificar').value;
+
             alert("cadastrado");
             return usuario;
         } else {
@@ -47,12 +50,9 @@ class Usuario {
             for (let usuario of this.listaUsuarios) {//retirar
                 console.log(usuario);
             }
-            setTimeout(() => { window.location.href = "../Textos/PaginaCaminho.html"; }, 10000);
+            setTimeout(() => { window.location.href = "../Textos/PaginaCaminho.html"; }, 2000);
 
         }
-
-
-
     }
 
     validaSenha() {
@@ -90,17 +90,16 @@ class Usuario {
         senha.value = "";
         senha2.value = "";
     }
-    imprimirConsole(){
-        let usuario = this.cadastraUsuario();
-        if(usuario!=null){
-            for (let usuario of this.listaUsuarios) {//retirar
-                console.log(usuario.nome);
-            }
+
+    logarADM(){
+        var email = document.getElementById('EmailLogin').value;
+        var senha = document.getElementById('SenhaLogin').value;
+        if(email==this.email && senha==this.senha){
+            setTimeout(() => { window.location.href = "../Textos/Logado.html"; }, 3000);
+        }else{
+            alert("Usuario Invalido");
         }
     }
 
 }
 var user = new Usuario();
-function fg(){
-console.log(user.nome);
-}

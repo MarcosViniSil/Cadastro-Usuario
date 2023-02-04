@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+    #ImagemLogin{
+        background-image: url('../imagens/Login-Tela-Grande.svg');
+        float: left;
+        width: 45vw;
+        height: 70vh;
+    }
+
+    #DivLogar{
+        float: right;
+        width: 35vw;
+    }
+
+    #ParagrafoLogin {
+        position: absolute;
+        top: 35%;
+        left: 61%;
+
+    }
+
+    footer {
+        color:rgb(1, 255, 131);
+        display: block;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    a {
+        color: white;
+    }
+
+    a:hover {
+        display: inline;
+        text-justify: auto;
+        position: static;
+    }
+
+}

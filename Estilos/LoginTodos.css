@@ -1,12 +1,13 @@
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 *{
-    margin:0px;
-    padding:0px;
+    margin: 0px;
+    padding: 0px;
 }
 HTML,body{
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(26, 25, 25);
     font-family: 'Nanum Gothic', sans-serif;
 }
 main{
@@ -18,13 +19,14 @@ main{
     margin: auto;
     margin-top: 15px;
 }
+
 section>h2{
     color: white;
     text-align: center;
     color: rgb(1, 255, 131);
 }
-#ImagemCaminho{
-    background-image: url('../imagens/PaginaEcolha-Celular.svg');
+#ImagemLogin{
+    background-image: url('../imagens/Login-TelasPeM.svg');
     background-position: center center;
     background-repeat: no-repeat;
     display: block;
@@ -32,21 +34,32 @@ section>h2{
     width: 70vw;
     height: 40vh;
     margin-top: 20px;
+}
+#EmailLogin,#SenhaLogin{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    border:none;
+    background-color: rgba(15, 15, 15, 0.897);
+    color: white;
+}
+label{
+    color:rgb(1, 255, 131);
+}
+#DivLogar{
+    text-align: center;
+}
 
+#BotaoLogin{
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(10, 10, 10, 0.815);
+    cursor: pointer;
+    color:rgb(1, 255, 131);
 }
-#LinksPagina{
-   display: block;
-    margin-top: 55px;
 
-}
-#Login,#Cadastrar{
-    text-decoration: none;
-    color: rgb(1, 255, 131);
-    background-color: rgba(14, 14, 14, 0.808);
-    padding: 20px;
-    border-radius: 15px;
-   
-}
 footer{
     display: none;
 }
