@@ -35,7 +35,7 @@ class Usuario {
             usuario.emailUsuario = document.getElementById('Email').value;
             usuario.senhaUsuario = document.getElementById('SenhaVerificar').value;
 
-            alert("cadastrado");
+            alert("Bem vindo "+usuario.nome+" ao sistema");
             return usuario;
         } else {
             return null;
@@ -50,7 +50,7 @@ class Usuario {
             for (let usuario of this.listaUsuarios) {//retirar
                 console.log(usuario);
             }
-            setTimeout(() => { window.location.href = "../Textos/PaginaCaminho.html"; }, 2000);
+            setTimeout(() => { window.location.href = "../Textos/PaginaCaminho.html"; }, 1000);
 
         }
     }
@@ -95,7 +95,8 @@ class Usuario {
         var email = document.getElementById('EmailLogin').value;
         var senha = document.getElementById('SenhaLogin').value;
         if(email==this.email && senha==this.senha){
-            setTimeout(() => { window.location.href = "../Textos/Logado.html"; }, 3000);
+            alert("Sucesso");
+            setTimeout(() => { window.location.href = "../Textos/Logado.html"; }, 2000);
         }else{
             alert("Usuario Invalido");
         }

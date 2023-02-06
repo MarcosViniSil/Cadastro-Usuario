@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+HTML,
+body {
+    background-color: rgb(26, 25, 25);
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header>h1 {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(1, 255, 131);
+}
+
+main {
+    width: 75vw;
+    height: 80vh;
+    padding-top: 20px;
+    background-color: rgba(51, 51, 51, 0.507);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#Senha,
+#Calculadora,
+#Tarefa {
+    text-decoration: none;
+    color: rgb(1, 255, 131);
+    background-color: rgba(14, 14, 14, 0.808);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#p1 {
+    text-align: center;
+    margin: 80px;
+}
+
+#p2 {
+    text-align: center;
+    margin: 80px;
+}
+
+#p3 {
+    text-align: center;
+    margin: 20px;
+}
+
+#DivLink {
+    padding-top: 65px;
+}
+
+
+footer {
+    display: none;
+}
