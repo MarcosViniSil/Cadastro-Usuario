@@ -23,8 +23,8 @@ header>h1 {
 }
 
 main {
-    width: 75vw;
-    height: 80vh;
+    width: 70vw;
+    height: 60vh;
     padding-top: 20px;
     background-color: rgba(51, 51, 51, 0.507);
     border-radius: 15px;
@@ -46,12 +46,12 @@ main {
 #p1 {
     margin-right: 30px;
     text-align: center;
-    margin: 57px;
+    margin: 20px;
 }
 
 #p2 {
     text-align: center;
-    margin: 80px;
+    margin: 60px;
 }
 
 #p3 {
