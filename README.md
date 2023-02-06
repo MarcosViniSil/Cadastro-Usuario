@@ -1,7 +1,7 @@
 ## Cadastro-Usuário
  Cadastro de Usuário e Login. <br>
  
- Para Logar no sitema: <br>
+ Para Logar no sistema: <br>
  
  email: adm@gmail.com <br>
  senha: 12345678 <br>
